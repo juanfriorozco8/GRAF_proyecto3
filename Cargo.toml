@@ -1,0 +1,12 @@
+[package]
+name = "graf-proyecto3"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+fontdue = "=0.9.3"
+raylib = "=5.5.1"
+
+[profile.release]
+lto = "thin"
